@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define the main colors */
+body {
+    background-color: lightbrown;
+    color: goldenrod;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: goldenrod;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightbrown;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hero section styles */
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('images/TriAnLake.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: lightbrown;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: goldenrod;
+    color: lightbrown;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: lightbrown;
+    color: goldenrod;
+}
+.lecturer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Style the lecturer card */
+.lecturer-card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lecturer-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style the lecturer image */
+.lecturer-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style the lecturer information */
+.lecturer-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.lecturer-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lecturer-info p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Add styles for the About Me, Portfolio, and Contact sections as needed */

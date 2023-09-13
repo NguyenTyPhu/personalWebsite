@@ -114,6 +114,10 @@ nav a {
     margin-bottom: 8px;
 }
 
+.before-footer{
+    background-image: url('images/NamDuIsland.jpg');
+    background-size: cover;
+}
 /* Add styles for the About Me, Portfolio, and Contact sections as needed */
 
 /* Style the footer */

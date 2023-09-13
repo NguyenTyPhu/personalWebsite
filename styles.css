@@ -115,3 +115,38 @@ nav a {
 }
 
 /* Add styles for the About Me, Portfolio, and Contact sections as needed */
+
+/* Style the footer */
+.footer {
+    background-color: goldenrod;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+/* Style the footer columns */
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Style the footer headings */
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the social media links */
+.social-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
